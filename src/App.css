@@ -1,0 +1,94 @@
+.main{
+    border: 5px solid red;
+    height: 100vh;
+    background-image: url(./components/assets/destination/background-destination-desktop.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.nav{
+    border: 2px solid rgb(177, 163, 189);
+    display: flex;
+    justify-content: space-between;
+}
+.list{
+    display: flex;
+}
+ul{
+    display: flex;
+    gap: 1em;
+    padding-right: 8.8em;
+    height: 4rem;
+    padding-left: 5em;
+    text-align: center;
+    align-items: center;
+    background-color: rgba(255,255,255, 0.3);
+  }
+li{
+    color: black;
+    list-style: none;
+}  
+span{
+    margin-right: 0.3rem;
+}
+.line{
+    width: 5rem;
+    position: absolute;
+    margin-left: 39rem;
+    margin-top: 3.9rem;
+  }
+  hr{
+    background-color: rgba(255,255,255, 0.3);
+  }
+  
+  .logo{
+    margin-top: 1.3em;
+    margin-left: 1.7em;
+  }
+  .section1{
+    border: 5px solid white;
+    width: 100%;
+    height: auto;
+    margin-top: 7em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .world{
+    border: 2px solid greenyellow;
+    width: 100%;
+    height: auto;
+  }
+  .destination{
+    color: white;
+    margin: 2rem;
+    width: 70%;
+  }
+  span{
+    margin-right: 1rem;
+  }
+  .list2{
+    display: flex;
+}
+.ull{
+    display: flex;
+    gap: 1em;
+    padding-right: 8.8em;
+    height: 3rem;
+    padding-left: 5em;
+    text-align: center;
+    align-items: center;
+  }
+li{
+    color: black;
+    list-style: none;
+}  
+.mars{
+    margin-top: 1rem;
+    display: block;
+}
+h1{
+    padding: 1rem;
+    color: white;
+    font-size: 50px;
+    font-family: cursive;
+}
